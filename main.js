@@ -1,14 +1,26 @@
-function isEvenlyDivisible() {
-
+function isEvenlyDivisible(num1, num2) {
+  if(num1 % num2 === 0){
+    return true
+  }else{
+    return false
+  }
 }
 
-function halfSquare() {
+function halfSquare(num) {
+  return num * num / 2
+}
+
+function exclaim(str) {
+  if(str.endsWith("!")){
+    return str
+  }if( str.endsWith("!!")){
+  return str + "!"
+}else{
+  return str + "!"
+}
 }
 
 function isLong() {
-}
-
-function exclaim() {
 }
 
 function countWords() {
